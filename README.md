@@ -18,3 +18,14 @@ Output: A list of recommended hostels with their location, average rating, and y
 Logic:
 Finds hostels similar to the input hostel based on cosine similarity.
 Ensures gender-specific recommendations.
+# Note
+I sincerely apologize for the inconvenience caused due to the absence of the required dataset (main_database.csv) in this project. The dataset was meant to be included to facilitate the functionality and provide an example for testing the recommendation system. Unfortunately, it was inadvertently left out during the preparation process.
+
+To ensure you can still explore the functionality of the code, you may create a mock dataset with the following columns:
+
+Hostel_Name
+Hostel_Rating
+Hostel_Location
+Hostel_Rating_Simple
+Gender
+Yearly_Hostel_Fees
